@@ -4,5 +4,4 @@
 This repository hosts the presentation and sample files used by Arctiq during our presentation at AnsibleFest London in 2017
 
 Any questions please contact:
-@arctiqteam or @fairweathertim on Twitter
-www.arctiq.ca
+@arctiqteam or @fairweathertim on Twitter or www.arctiq.ca
