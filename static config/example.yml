@@ -1,0 +1,11 @@
+---
+  - name: Juniper Configuration Playbook
+    hosts: prod
+    gather_facts: no
+    connection: local
+    tasks:
+      - name: Install the Configuration to the Device(s)
+        junos_config:
+          src: "files/{{ inventory_hostname }}-interfaces.cfg"
+          update: "{{ config_method | default('merge') }}"
+          comment: "Configuration Updated by Ansible"

@@ -1,0 +1,8 @@
+---
+  lag_interfaces:
+    - name: et-0/0/1
+      description: Lag Interface
+      lag: ae1
+    - name: et-0/0/2
+      description: Lag Interface
+      lag: ae1
